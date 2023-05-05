@@ -1,0 +1,14 @@
+.link {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    background-image: url("../../assets/3.png");
+    padding: 10px 10px;
+    border-radius: 100%;
+    font-weight: bold;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.linkDestacado{
+    border: 3px solid salmon;
+}

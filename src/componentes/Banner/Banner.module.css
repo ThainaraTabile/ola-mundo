@@ -1,0 +1,165 @@
+/* .banner {
+    padding: 1rem 3.5rem 1.25rem;
+    background-color: #FBF0E6;
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   align-items: center;
+}
+.bannerTela{
+   max-width: 50rem;
+   max-height: 50rem;
+   padding: 3.5rem 1.5rem;
+}
+
+@media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .bannerTela {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .bannerTela {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+} */
+
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    background-color: #FBF0E6;
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ 
+.titulo {
+   margin-top: -5rem;
+}
+ 
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    
+    color: #74C2E0;
+}
+ 
+.imagens {
+    position: relative;
+    height: 406px;
+}
+ 
+.imagens > .minhaFoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 23vw;
+    border-radius: 50%;
+}
+ 
+.imagens > .circuloColorido {
+    position: absolute;
+    right: 7vw;
+    bottom: 2.2vw;
+    width: 25vw;
+}
+ 
+@media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+ 
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+ 
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+ 
+    .imagens {
+        height: 338px;
+    }
+   
+    .imagens > .minhaFoto {
+        width: 25vw;
+    }
+   
+    .imagens > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+ 
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+ 
+    .titulo {
+        margin-bottom: 2rem;
+    }
+ 
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+ 
+    .imagens {
+        height: 307px;
+    }
+ 
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+   
+    .imagens > .minhaFoto {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+   
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}
